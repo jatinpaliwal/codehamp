@@ -10,7 +10,7 @@ module.exports = {
     {
     use: '@gridsome/source-wordpress',
     options: {
-      baseUrl: 'http://f63b05684ec1.ngrok.io/', // required
+      baseUrl: 'http://admin.codehamp.com/', // required
       apiBase: 'wp-json',
       typeName: 'WordPress',
       perPage: 100,
