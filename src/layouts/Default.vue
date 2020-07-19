@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <g-link to="/"><img class="logo-nav" src="logocomp.png" :alt="$static.metadata.siteName"></g-link>
       </strong>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
@@ -46,5 +46,9 @@ body {
 
 .nav__link {
   margin-left: 20px;
+}
+
+.logo-nav{
+    height: 75px;
 }
 </style>
