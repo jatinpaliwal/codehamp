@@ -38,7 +38,7 @@ export default {
     Post
   },
   metaInfo: {
-    title: 'Welcome to my blog :)'
+    title: 'We code Awesomeness'
   }
 }
 </script>
